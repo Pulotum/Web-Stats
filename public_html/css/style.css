@@ -1,0 +1,58 @@
+html {
+	margin: 0;
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+body {
+	margin: 0;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+ {
+	border: 1px solid red !important;
+}
+
+#hContent {
+	background-color: black;
+}
+
+#hContent h1 {
+	margin-bottom: 0;
+	padding: 10px 0 0 0;
+	color: white;
+}
+
+#hContent a {
+	color: white;
+}
+
+#hContent a:hover {
+	color: grey;
+}
+
+#hContent select {
+	padding: 5px;
+	text-align: center;
+	border: 0;
+	margin-bottom: 5px;
+}
+
+#bContent {
+	width: 80%;
+	padding: 10px;
+	margin: 10px auto 10px auto;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+}
+
+#bContent .page {
+	padding: 5px;
+}
+
+/* ---------- ---------- ---------- ---------- ---------- */
